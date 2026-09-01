@@ -85,26 +85,14 @@ function App() {
           <div className="textLinkContainer">
             <nav className={`textLinks ${menuOpen ? "collapsed" : ""}`}>
               <ul>
-                <li>
-                  <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/works" className={({ isActive }) => isActive ? "active" : ""}>Works</NavLink>
-                </li>
+                <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink></li>
+                <li><NavLink to="/works" className={({ isActive }) => isActive ? "active" : ""}>Works</NavLink></li>
                 {/*
-                <li>
-                  <NavLink to="/games" className={({ isActive }) => isActive ? "active" : ""}>Games</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/music" className={({ isActive }) => isActive ? "active" : ""}>Music</NavLink>
-                </li>
+                <li><NavLink to="/games" className={({ isActive }) => isActive ? "active" : ""}>Games</NavLink></li>
+                <li><NavLink to="/music" className={({ isActive }) => isActive ? "active" : ""}>Music</NavLink></li>
                 */}
-                <li>
-                  <NavLink to="/blogs" className={({ isActive }) => isActive ? "active" : ""}>Blogs</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink>
-                </li>
+                <li><NavLink to="/blogs" className={({ isActive }) => isActive ? "active" : ""}>Blogs</NavLink></li>
+                <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink></li>
               </ul>
             </nav>
           </div>
