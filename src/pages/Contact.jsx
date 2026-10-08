@@ -8,7 +8,7 @@ const links = [
     {
         key: "insta",
         name: "Instagram",
-        url: "https://www.instagram.com/frankrev.dev",
+        url: "https://www.instagram.com/vincefrancopadua",
         icon: new URL("../assets/Images/socials-links/insta.svg", import.meta.url).href
     },
     {
@@ -20,13 +20,13 @@ const links = [
     {
         key: "itch",
         name: "Itch.io",
-        url: "https://frankrevdev.itch.io",
+        url: "https://frankline-studio.itch.io",
         icon: new URL("../assets/Images/socials-links/itch.svg", import.meta.url).href
     },
     {
         key: "yt",
         name: "YouTube",
-        url: "https://www.youtube.com/@frankrevdev",
+        url: "https://www.youtube.com/@FrancoPaduaOfficial",
         icon: new URL("../assets/Images/socials-links/yt.svg", import.meta.url).href
     }
 ];

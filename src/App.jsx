@@ -135,7 +135,7 @@ function App() {
       <footer className="footer">
         <p>Copyright &copy; {new Date().getFullYear()} Franco Padua. All rights reserved.</p>
         <div className="footerLinks">
-          <a href="https://www.facebook.com/frankrev.dev" target="_blank">
+          <a href="https://www.facebook.com/vincefrancopadua" target="_blank">
             <img src={fb} alt="Facebook" />
           </a>
           <a href="https://www.x.com/frankrevdev" target="_blank">
@@ -144,7 +144,7 @@ function App() {
           <a href="https://www.linkedin.com/in/vince-franco-padua-b5062a3a6/" target="_blank">
             <img src={linked} alt="LinkedIn" />
           </a>
-          <a href="https://github.com/frankrevdev" target="_blank">
+          <a href="https://github.com/francopadua" target="_blank">
             <img src={github} alt="GitHub" />
           </a>
         </div>
